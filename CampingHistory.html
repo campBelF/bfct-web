@@ -1,0 +1,104 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<META NAME="robots" CONTENT="noindex,nofollow,nosnippet,noodp,noarchive,noimageindex">
+<title>Camping History</title>
+
+<script type="text/javascript"> 
+
+function calcYearsSinceStart() //Not used asof 20170131
+{ 
+  //Set the two dates 
+  var firstTrip = new Date(1988, 1, 12); //Month is 0-11 in JavaScript 
+  today=new Date(); 
+  //Get 1 year in milliseconds 
+  var one_year=1000*60*60*24*30*12; 
+  //Calculate difference btw the two dates, and convert to years 
+  var iNumYearsSinceStart = Math.ceil((today.getTime()-firstTrip.getTime())/(one_year)); 
+  document.getElementById('totaltrips').innerHTML = iNumYearsSinceStart; 
+} 
+
+</script> 
+
+
+</head>
+
+<body stylesrc="index.html" style="font-family: Arial" onload='calcYearsSinceStart()' bgcolor="#000000" text="#FFFF00" link="#FF6600" vlink="#FF6600" alink="#FF3300">
+
+<p align="center"> 
+<img border="0" src="images/title_CampHistory.gif" width="384" height="61"><br>
+&nbsp;</p>
+<p align="center"> <font size="2" color="#FF0000">
+<a href="indexPage.html">Home</a></font></p>
+<p align="center">
+&nbsp;</p>
+<p align="center"><br>
+<script>
+var sYear = new Date();
+var sCurrentYear = sYear.getFullYear();
+var sTotalTrips = (sCurrentYear - 1988) + 1;
+this.document.write("We have achieved a total of " + sTotalTrips + " consecutive camping events at the completion of the " + sCurrentYear + " trip.");
+</script>
+<br><br>
+<!--Total number of consecutive camping trip years is now <b id='totaltrips'>00</b>.  </p><br>-->
+<p align="center">
+1986 - Pilot Episode (October)<br>
+1988 - First year at Grapevine (February)<br>
+1996 - First year at Burrells Ford (The Hole)<br>
+1997 - First year at Burrells Ford (Ridley Branch/Reed Creek side)<br>
+2026 - First year at Cassidy Bridge Primitive Camp (AKA: Hunt Camp)<br>
+<br>
+&nbsp;</p>
+<p align="center"><u>Our Traditions Since Year One<br>
+<br>
+</u>The playing of Pink Floyd's 'Comfortably Numb' at exactly midnight on 
+Saturday.<br>
+The sacrifice of a chair to the fire while 'Comfortably Numb' plays.<br>
+As of 2017, 'Comfortably Numb' and chair sacrifice will take place at 10:00 pm on Saturdays.
+<br><br>
+<u>Rules<br>
+</u><br>
+Obey all rules.<br>
+Official start of camping trip is noon on Friday.<br>
+Official end of rule enforcement is midnight on Saturday.<br>
+Only elders and members of the Board of Directors are allowed to possess a whistle and call penalties on campers.<br>
+The disposal of&nbsp; a can requires an underhand toss with the phrase, 
+'Incoming!' while can is in the air.<br>
+When the phrase 'Incoming!' is uttered, at least one camper must respond with 
+the phrase, 'Covered!'.<br>
+An elder can call a 'Social' at any time.&nbsp; All campers will respond by 
+taking a drink.<br>
+If you bring a drink to another camper, it had better be opened.<br>
+No bottles!<br>
+If you are not performing some work effort, have a can within reach at all 
+times.<br>
+No urinating within a 20 foot radius of center of fire or near the kitchen.<br>
+Anyone handling food for preparation MUST wear rubber gloves.<br>
+Whether visiting or camping, if you drive into camp, you better have a minimum 
+of one stick of wood.<br>
+No Gambling and No Foul Language (we are lenient on this one)<br><br>
+<u>Rule Amendments</u><br><br>
+As requested by Pepper, there will be no flatulence at the card table. (2015)<br>
+At the age of 60, you are no longer required to gather wood prior to the camping trip. (2015)
+</p>
+<p align="center">&nbsp;</p>
+<p align="center">
+Satellite image of our current location (34.969507, -83.136753)<br>
+<img border="0" src="images/BFSatellite.jpg" width="691" height="316"></p>
+
+<p align="center">&nbsp;</p>
+<p align="center">
+Click <a target="_blank" href="https://forecast.weather.gov/MapClick.php?textField1=34.969507&textField2=-83.136753">HERE</a> for Weather Forecast by GPS Coordinates
+</p>
+
+<p align="center">
+&nbsp;</p>
+<p align="center"> <font size="2" color="#FF0000">
+<a href="indexPage.html">Home</a></font></p>
+
+</body>
+
+</html>
