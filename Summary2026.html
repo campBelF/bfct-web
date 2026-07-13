@@ -43,6 +43,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px; color: #FFFF00;
 }
+.vocab-word {
+    font-family: Bodoni, "Bodoni MT", "Didot", "Times New Roman", serif;
+	font-size: 24px;
+}
 h1.title {
     text-align: center;
     margin-left: auto;
@@ -52,17 +56,21 @@ h1.title {
     font-size: 20px;
     color: #FCD116;
     text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-skip-ink: none;	
+	text-underline-offset: 5px;
     margin-top: 60px;
 }
 p.center {
+    max-width: 104ch;
+    overflow-wrap: normal;
+    word-break: normal;	
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #FFFF00;
-    margin-top: 30px;
 }
 
 p.story {
@@ -123,8 +131,8 @@ div.story {
 
 <h1 class="title">We Have Moved!</h1>
 <p class="center"> 
-        Due to the catastrophic snowstorm prior to camping weekend, our Burrells Ford site was <br> 
-		not accessible to deliver wood.  Furman made a call and we were able to rent the Cassidy Bridge Hunt Camp.
+        Due to the catastrophic snowstorm prior to camping weekend, our Burrells Ford site was  
+		not accessible to deliver wood.  Furman made a phone call and we were able to rent the Cassidy Bridge Hunt Camp.
 </p>
 
 <!--
@@ -137,10 +145,10 @@ div.story {
 
 <h1 class="title">Laughable Moments</h1>
 <p class="center"> 
-		Vanderbilt decals mysteriously appearing on B.A.'s possessions (truck and cap). <br>
-		Pepper lost his car keys and then found them in the most unusual location...... locked in his vehicle.  He<br>
-		slept in the poker tent on the table.  His busy wife was forced to modify her schedule and <br>deliver the spare set of keys the next day. <br>
-		Someone (we all know who) brought plasticware after Lusk had stated via SMS messaging that none was  <br>needed.  The box mysteriously spontaneously combusted.
+		Vanderbilt decals mysteriously appearing on B.A.'s possessions (truck and cap). <br><br>
+		Pepper lost his car keys and then found them in the most unusual location...... locked in his vehicle.  He
+		slept in the poker tent on the table.  His busy wife was forced to modify her schedule and deliver the spare set of keys the next day. <br><br>
+		Someone (we all know who) brought plasticware after Lusk had explicitly stated via SMS messaging that none was  needed.  That very same box mysteriously spontaneously combusted.
 </p>
 
 <!--
@@ -165,34 +173,34 @@ div.story {
 <h1 class="title">Top Stories Told During This Year's Event</h1>
 <p class="center"> 
 		Little JJ and the cuss words.<br>
-		Lusk's youngest was at the campsite with him prior to camping weekend.  Brent was there also<br>
-		and allegedly used some curse words.  On the ride home, JJ informed Lusk about Brent's use<br>
+		Lusk's youngest was at the campsite with him prior to camping weekend.  Brent was there also
+		and allegedly used some curse words.  On the ride home, JJ informed Lusk about Brent's use
 		of those words AND provided the exact count of the words.<br><br>
 		Billy and the handgun discharge.<br>
-		The group was sitting around the fire talking and for no valid reason, Billy jumps up and <br>
-		draws his handgun from the holster.  He then proceeds to squeeze off a round between two people<br> 
-		making contact with a flag hanging in the background.  Of course this action triggered Lusk<br>
+		The group was sitting around the fire talking and for no valid reason, Billy jumps up and 
+		draws his handgun from the holster.  He then proceeds to squeeze off a round between two people 
+		making contact with a flag hanging in the background.  Of course this action triggered Lusk
 		to cuss Billy's ass out.<br><br>	
-		<img border="0" src="images/POW.jpg" width="482" height="414">	
+		<img border="0" src="images/POW_transparent.png" width="482" height="414">	
 		
 </p>
 
 <h1 class="title">Dumbass Of The Day</h1>
 <p class="center"> 
-        This is a new award provided/donated by Robert.  This item is a pink shirt with the words "Dumbass Of The Day" printed on the front.<br>
-		For this year's camping trip, it was a toss-up between Billy (POW!) and Pepper (Car Keys).  Pepper took the award and wore that <br>
+        This is a new award provided/donated by Robert.  This item is a pink shirt with the words "Dumbass Of The Day" printed on the front.
+		For this year's camping trip, it was a toss-up between Billy (POW!) and Pepper (Car Keys).  Pepper took the award and wore that 
 		pink shirt like a man!  *Refer to this year's photos to view Pepper sporting the masculine pink attire.
 		
 </p>
 
 <h1 class="title">Mishaps and Unexpected Events</h1>
 <p class="center"> 
-        Catastrophic vortex winds pummeled the campsite Friday and into Saturday morning. <br>
-		The poker tent lifted off the ground, but was miraculously saved by quick-thinking men <br>
+        Catastrophic vortex winds pummeled the campsite Friday and into Saturday morning. 
+		The poker tent lifted off the ground, but was miraculously saved by quick-thinking men 
 		risking their own lives to use their feeble bodies as anchors.<br><br>
-		The generator vibrated off the pallet it was resting upon and toppled onto its side.  <br>
-		In a desperate cry for help, it began producing Native American (aka Indian) smoke signals <br>
-		loosely interpreted as "I've fallen and I can't get up!".  A team of experienced engineers <br>
+		The generator vibrated off the pallet it was resting upon and toppled onto its side.  
+		In a desperate cry for help, it began producing Native American (aka Indian) smoke signals 
+		loosely interpreted as "I've fallen and I can't get up!".  A team of experienced engineers 
 		quickly performed surgery and saved the life of the dying generator.
 		
 </p>
@@ -206,16 +214,17 @@ div.story {
 <h1 class="title">Vocabulary Words of the Weekend</h1>
 <p class="center"> 
         
-		Catastrophic<br>
+		<span class="vocab-word"><b>catastrophic</b></span><br>
         <i>adjective</i><br>
 		<b>Defined:</b> Involving or causing sudden, great damage or suffering.<br>
-		<b>Usage:</b> "Chris Justaguess on Channel 4 warned the viewers of the ominous and menacing catastrophic vortex wind <br>gusts that may end life on this planet."<br>
-		<br>
+		<b>Usage:</b> "Chris Justaguess on Channel 4 warned the viewers of the ominous and menacing catastrophic vortex wind gusts that may end life on this planet."<br>
+		<br><br>
 
-		POW!<br>
+		<span class="vocab-word"><b>POW!</b></span><br>
         <i>noun</i><br>
 		<b>Defined:</b> Expressing the sound of a blow or explosion.<br>
-		<b>Usage:</b> "Unexpectedly, One-Eyed Billy Jack drew his holstered weapon and then POW!, A lead projectile exited the <br>muzzle, nearly missing two bystanders and pierced the hanging flag behind them."<br>
+		<b>Usage:</b> "Unexpectedly, One-Eyed Billy Jack drew his holstered weapon, and then—-POW!-—a lead projectile exited the muzzle, narrowly missed two bystanders, and pierced the flag hanging behind them.
+"<br>
 		<br>
 		
 		<!--
@@ -279,7 +288,7 @@ div.story {
 <h1 class="title">Campers on Probation</h1>
 <p class="center"> 
         <!--The Camping Elders have unanimously decided to place Lusk on probation (Level 1) AND demote him to OCN.  He now reports to Taylor.-->
-		As of 2026, the Camping Elders have unanimously decided to keep Vinson on Double Secret Probation (LEVEL 2).<br>
+		As of 2026, the Camping Elders have unanimously decided to keep Vinson on Double Secret Probation (LEVEL 2).
 		This is a rare occurrence for a camper to receive a LEVEL 2 Probation.  LEVEL 2 punishment includes:<br>
 		<div class="bullet">
 			<table class="bullet">
@@ -325,7 +334,7 @@ div.story {
 
 <h1 class="title">Work Order Content</h1>
 <p class="center"> 
-        Three Work Orders were submitted for fire pit digging, poker tent(Airbnb) assembly, and kitchen canopy assembly. All WOs were <br>
+        Three Work Orders were submitted for fire pit digging, poker tent(Airbnb) assembly, and kitchen canopy assembly. All WOs were 
 		successfully approved and implemented to completion.  We are reporting OSHA regulations were followed by all personnel.
 		<!--As per OSHA regulations, orange cones were placed around the uneven ground to warn<br>
 		pedestrians of potential trip hazards.-->
@@ -341,7 +350,7 @@ div.story {
 <h1 class="title">Number of Guests</h1>
 <p class="center"> 
         Total of 7 throughout the weekend.		
-		Vaughn was moving among us in stealth mode.  He was never actually seen, <br>
+		Vaughn was moving among us in stealth mode.  He was never actually seen, 
 		but if you do see him, it will be the last image your eyes visualize.
 </p>
 
@@ -384,15 +393,15 @@ div.story {
 
 <h1 class="title">Pallet Count</h1>
 <p class="center"> 
-        85 Pallets<br>
+        ~85 Pallets~<br>
 		<!--** We are slowly achieving our goal of zero carbon emissions by 2040 by decreasing our pallet burn rate.<br>  Carbon gas emissions decreased from the prior year by 19.62 percent.<br>  
 		This gradual reduction in pallet usage will help reduce or slow the worst consequences of climate change <br> and protect habitats as well as the natural services they provide.
 		-->
         <!--** We have not reached our goal of going green.  There was a decrease in pallet count this year, but carbon gas emissions <br>
 		were up this year by over 23.067 percent.  All bonuses are suspended until this pallet burn issue is mitigated.  <br>
 		Your 2025 goals will include the pallet burn reduction entry as stated by upper-level management. -->
-		Bad news for the team!!! There was a 32.81 percent increase in pallet count this year, and<br> 
-		carbon gas emissions were up by 41.034 percent.  Bonuses will <br>
+		Bad news for the team!!! There was a 32.81 percent increase in pallet count this year, and 
+		carbon gas emissions were up by 41.034 percent.  Bonuses will 
 		NOT be paid out in the form of Corporate Stock (Preferred) this year. 
 </p>
 
@@ -443,7 +452,7 @@ div.story {
 
 <h1 class="title">Special Thanks</h1>
 <p class="center"> 
-        Much gratitude goes out to all those who:<br>
+        Much gratitude goes out to all those who generously offered their support for the following tasks:<br>
 		<div class="bullet">
 			<table class="bullet">
 				<tr>
@@ -462,8 +471,8 @@ div.story {
 <h1 class="title">A Toast!</h1>
 <p class="center"> 
         <!--A toast to new life and to those we have lost.<br>-->
-		A toast to the USA, Dixieland, the Great American Fighting Soldier, good friends, and to those we have lost along the way.<br>
-		A crap load of toasts were offered up to Taylor and Cromer this year.<br>
+		A toast to the USA, Dixieland, the Great American Fighting Soldier, good friends, and to those we have lost along the way.<br><br>
+		A crap load of toasts were offered up to Taylor and Cromer this year.<br><br>
 		To those that have departed...."Here's to all the nights we can't remember with a friend we'll never forget." -Anonymous <br>
 </p>
 
@@ -482,11 +491,11 @@ div.story {
 <h1 class="title">Recent Changes and/or Expectations</h1>
 <p class="center"> 
         <!--New <span class="inlinenav"><a href="CampingHistory.html" title="Click here to view rules">amendments</a></span> to the Official Rules have been established. <br>-->
-		The OFFICIAL Camping Trip start time is Friday at noon.<br>
-		Drawing for race pool is now Saturday after the noon meeting.<br>
-		Chair sacrifice is now at 10:00 p.m. on Saturday night.<br>
-		Any of the seven days prior to the official start of the Camping Trip is now designated as wood/pallet pickup <br>
-		and delivery days. This is the most important preparation of the trip.  Attendance is mandatory and absence <br>
+		The OFFICIAL Camping Trip start time is Friday at noon.<br><br>
+		Drawing for race pool is now Saturday after the noon meeting.<br><br>
+		Chair sacrifice is now at 10:00 p.m. on Saturday night.<br><br>
+		Any of the seven days prior to the official start of the Camping Trip is now designated as wood/pallet pickup 
+		and delivery days. This is the most important preparation of the trip.  Attendance is mandatory and absence 
 		requires a written doctor's statement or proof of out-of-town travel signed by a CEO.
 </p>
 
@@ -499,19 +508,25 @@ div.story {
 
 <h1 class="title">Saturday Noon Meeting Summary</h1>
 <p class="center"> 
-		A quorum was present for the annual meeting.<br>
-		A toast offered to Taylor and Cromer and the good times we experienced with them both.<br>
-		Continuation of the Cassidy Bridge Hunt Camp for future February trips.  Furman has a contact.<br>
+		A quorum was present for the annual meeting.<br><br>
+		A toast offered to Taylor and Cromer and the good times we experienced with them both.<br><br>
+		Continuation of the Cassidy Bridge Hunt Camp for future February trips.  Furman has a contact.<br><br>
 		Email address for sending photos to be posted is : joyvon [at] charter [dot] net 		
 </p>
 
 <h1 class="title">Summary</h1>
 <p class="center"> 
-        Fire was stoked, cards were played, hops were consumed, good food was prepared.<br>
-		Many Socials were offered up and accepted.<br>
-		Brent Evans was awarded the chair for the yearly sacrifice. <br>
-		A good time was had by all. <br><br>
-		Until next year.
+        Fire was stoked, cards were played, hops were consumed, good food was prepared.<br><br>
+		Many Socials were offered up and accepted.<br><br>
+		Brent Evans was awarded the chair for the yearly sacrifice. <br><br>
+		A good time was had by all. <br><br><br><br>
+		<i>I leave you with one final quote:
+		"Life is short my friends.  If the good Lord takes my soul today,  I want y'all to know I love y'all.  You've made me laugh a lot and hope
+		we have many more laughs together.  I can't imagine a tighter group of friends.  We've done a lot together for many years, hell decades.  
+		 And good Lord willing, more to come."&nbsp;&nbsp;&nbsp;&nbsp;-Pepper <br><br><br>
+		
+		Until next year, my friends.
+		</i>
 </p>
 
 <br><br>
