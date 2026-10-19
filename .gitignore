@@ -1,8 +1,17 @@
-Temp/
 *.7z
+Temp/
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.*
+credentials.*
 .DS_Store
 Thumbs.db
 Summary2026_beforeHTMLChanges.html
+Prompt Inspect_Stage_Push.txt
 Prompt Build Nascar Table.txt
 Prompt Build Summary Banner 20xx.txt
 TempCodeHolder.html
